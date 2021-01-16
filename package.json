@@ -1,0 +1,32 @@
+{
+  "name": "http-provider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtormo/http-provider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtormo/http-provider/issues"
+  },
+  "homepage": "https://github.com/gtormo/http-provider#readme",
+  "dependencies": {
+    "error-type": "git+ssh://git@github.com/gtormo/error-types.git#9ff4972",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.161",
+    "@types/node": "^14.6.2",
+    "typescript": "^4.0.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
