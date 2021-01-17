@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/gtormo/http-provider#readme",
   "dependencies": {
-    "error-type": "git+ssh://git@github.com/gtormo/error-types.git#9ff4972",
+    "error-type": "https://github.com/gtormo/error-types.git#9ff4972",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
